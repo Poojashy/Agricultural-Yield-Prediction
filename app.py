@@ -62,17 +62,19 @@ if st.sidebar.button("Predict Yield"):
 
 # Footer
 st.markdown("---")
-st.markdown("Developed with ❤️ by [Pooja shetty](https://github.com/poojashy) [Hamza](https://www.linkedin.com/in/Pooja Shetty/)")
+st.markdown("Developed with ❤️ by [Pooja Shetty](https://github.com/poojashy) and [Hamza](https://www.linkedin.com/in/poojashy/)")
 
-
+# Social Media Links
 social_media_links = [
     "https://www.facebook.com/ThisIsAnExampleLink",
     "https://www.youtube.com/ThisIsAnExampleLink",
     "https://www.instagram.com/ThisIsAnExampleLink",
-    "https://github.com/poojashy)",
-    "(https://www.linkedin.com/in/poojashy/",
+    "https://github.com/poojashy",
+    "https://www.linkedin.com/in/poojashy/"
 ]
 
+# Create social media icons
 social_media_icons = SocialMediaIcons(social_media_links)
 
+# Render social media icons
 social_media_icons.render()
